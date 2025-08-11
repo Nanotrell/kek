@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(=^･ｪ･^=)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <h1><i><span class="hii"></span>, Дарья</i></h1>
+
+Что тебе нужно делать?<br> Отгадывать координаты!
+<br>На этом сайте можно проверить, правильно ли ты отгадала координаты, потом ты можешь их скопировать и вставить в Яндекс Карты
+<p>Первую координату места, где спрятан подарок тебе нужно отгадать, используя Библию</p>
+<p><h2>Стихи из библии, небольшое введение:</h2>
+Библия - это сборник "книг", произведений, например, "Книга Бытия" или "Книга Чисел" входят в состав Библии. Эти книги разделены на главы, а главы, в свою очередь на стихи - абзацы текста.
+<br>Стихи и главы нумеруются, поэтому, когда контришься, можно пафосно цитировать библию, например: <blockquote><i><strong>"Жизнь твоя будет висеть пред тобою, и будешь трепетать ночью и днём, и не будешь уверен в жизни твоей" Книга Второзакония 29:66 (глава 29, стих 66)</strong></i></blockquote>
+</p>
+<p>Твоя задача - прочитать атмосферные стихи из библии ниже и выписать себе номер главы и стиха, а потом сложить всё в координату <strong>X</strong> на карте. Для координаты <strong>Y</strong> будет другое задание))))
+</p>
+<blockquote><i><strong>
+<p>Книга Второзакония <br><br>
+<i>Только берегись и тщательно храни душу твою, чтобы тебе не забыть тех дел, которые видели глаза твои, и чтобы они не выходили из сердца твоего во все дни жизни твоей; и поведай о них сынам твоим и сынам сынов твоих.
+</i></p></strong></i></blockquote> <hr>
+
+<blockquote><i><strong><p>Книга Екклесиаста<br><br>
+<i>На всё это я обратил сердце моё для исследования, что праведные и мудрые и деяния их — в руке Божией, и что человек ни любви, ни ненависти не знает во всём том, что перед ним
+</i></p></strong></i></blockquote><hr>
+
+<blockquote><i><strong><p>Третья Книга Моисея Левит <br><br>
+<i>И возьмёт священник из сей жертвы часть в память и сожжёт на жертвеннике: это жертва, благоухание, приятное Господу
+</i></p></strong></i></blockquote><hr>
+
+<blockquote><i><strong><p>Послание к римлянам Святого Апостола Павла<br><br>
+<i>И не делать ли нам зло, чтобы вышло добро, как некоторые злословят нас и говорят, будто мы так учим? Праведен суд на таковых
+</i></p></strong></i></blockquote>
+<h3>Проверка первой координаты X:</h3>
+<p style="font-size: 30px;"><input id="x1" type="text">,<input id="x2" type="text"><input id="x3" type="text"><input id="x4" type="text"></p>
+<button id="check1">Проверить</button>
+<br><hr><br>
+<h2>Второе задание! (Уже посложнее)</h2>
+<a href="задание.xlsx">Файл для задания</a>
+<p>Условие написано в файле, но продублирую немного здесь и приведу пример</p>
+<p>Задача про овощи, на грядке, и эти овощи нарисованы в таблице на грядке и обозначены цифрами от 0 до 3</p>
+<p>Овощи прорастут при определённых условиях, которые написаны в файле, задача - посчитать, сколько овощей прорастут в нужных условиях</p>
+<p>Морковь обозначена цифрой 0 <br>
+    Капуста обозначена цифрой 1 <br>
+    Редис обозначен цифрой 2 <br>
+    Свёкла обозначена цифрой 3
+</p>
+<p>Вот пример:</p>
+<P>Допустим, у нас есть такая грядка размером 4 на 4</P>
+<img src="ФОТО/ПРИМЕР1.png" width="300" height="300">
+<p>Здесь прорастут 4 морковки, выделенные оранжевым цветом, потому что они растут во внешнем ряду:</p>
+<img src="ФОТО/ПРИМЕР2.png" width="300" height="300">
+<p>Прорастут 3 капусты, выделенные голубым цветом, потому что горизонтально рядом их посажено 3 штуки и рядом с двумя из этих трёх капуст есть проросшая морковь ("рядом", значит на клетку левее/правее/выше/ниже, клетки, расположенные по дигонали не считаются как стоящие рядом):</p>
+<img src="ФОТО/ПРИМЕР3.png" width="300" height="300">
+<p>Прорастёт один редис, выделенный жёлтым цветом, потому что он растёт не во внешнем ряду:</p>
+<img src="ФОТО/ПРИМЕР4.png" width="300" height="300">
+<p>И прорастёт одна свекла из четырёх, выделенная фиолетовым, потому что на клетку выше/ниже/правее/левее рядом не растёт капуста:</p>
+<img src="ФОТО/ПРИМЕР5.png" width="300" height="300">
+
+<h3>Вот как-то так</h3>
+<p>Если вторая задача сложная, то так мне и напиши, потому что наверно я немного замудрила, но вроде прикольно</p>
+<br>
+<h3>Проверка второй координаты Y:</h3>
+<p style="font-size: 30px;"><input id="y1" type="text">,<input id="y2" type="text"><input id="y3" type="text"><input id="y4" type="text"></p>
+<button id="check2">Проверить</button>
+<br><hr><br>
+</body>
+<script>
+    document.getElementById("check1").onclick = Check1;
+    document.getElementById("check2").onclick = Check2;
+    function Check1() {
+        if (document.getElementById("x1").value=="49") {
+            document.getElementById("x1").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("x1").style.border = "2px solid #ff0000"
+        }
+        if (document.getElementById("x2").value=="91") {
+            document.getElementById("x2").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("x2").style.border = "2px solid #ff0000"
+        }
+        if (document.getElementById("x3").value=="29") {
+            document.getElementById("x3").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("x3").style.border = "2px solid #ff0000"
+        }
+        if (document.getElementById("x4").value=="38") {
+            document.getElementById("x4").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("x4").style.border = "2px solid #ff0000"
+        }
+    };
+    function Check2() {
+        if (document.getElementById("y1").value=="38") {
+            document.getElementById("y1").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("y1").style.border = "2px solid #ff0000"
+        }
+        if (document.getElementById("y2").value=="88") {
+            document.getElementById("y2").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("y2").style.border = "2px solid #ff0000"
+        }
+        if (document.getElementById("y3").value=="47") {
+            document.getElementById("y3").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("y3").style.border = "2px solid #ff0000"
+        }
+        if (document.getElementById("y4").value=="22") {
+            document.getElementById("y4").style.border = "2px solid #06d84c"
+        } else {
+            document.getElementById("y4").style.border = "2px solid #ff0000"
+        }
+    };
+    var now = new Date();
+    let hours = Number(now.getHours());
+    if (hours>=0 && hours<=3) {
+        document.getElementsByClassName("hii")[0].textContent = "Доброй ночи";
+    }
+    if (hours>=3 && hours<=12) {
+        document.getElementsByClassName("hii")[0].textContent = "Доброе утро";
+    }
+    if (hours>=12 && hours<=18) {
+        document.getElementsByClassName("hii")[0].textContent = "Добрый день";
+    }
+    if (hours>=18) {
+        document.getElementsByClassName("hii")[0].textContent = "Добрый вечер";
+    }
+</script>
+</html>
